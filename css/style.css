@@ -195,6 +195,16 @@ header nav ol li a:hover{
     display: flex;
     border-radius: 5%;
     margin-left: 3%;
+    animation: escalar 7s infinite alternate;
+}
+
+@keyframes escalar {
+    to {
+        transform: scale(0.9);
+    }
+    from {
+        transform: scale(1);
+    }
 }
 
 .container .row .col-40{
@@ -236,6 +246,16 @@ header nav ol li a:hover{
     display: flex;
     border-radius: 5%;
     margin-right: 3%;
+    animation: escalar 7s infinite alternate;
+}
+
+@keyframes escalar {
+    to {
+        transform: scale(0.9);
+    }
+    from {
+        transform: scale(1);
+    }
 }
 
 .container-1 .row-1 .col-40{
@@ -260,6 +280,54 @@ header nav ol li a:hover{
     text-align: justify;
     margin-left: 3%;  
 }
+
+/* Productos */
+
+.container2-producto {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: auto;
+    max-width: 1240px;
+}
+
+.row2-producto {
+    width: 100%;
+}
+
+.row2-producto .col-80 h2{
+    color: white;
+    font-size: 1.7rem;
+    justify-content: center;
+    text-align:center;
+    font-family:'Baloo Tammudu 2';
+}
+
+.row2-producto .col-80 img{
+    width: 300px;
+    margin-bottom: 30px;
+    padding: 3px;
+    border-radius: 2%;
+    object-fit: cover;
+    filter: brightness(70%);
+    animation: escalar 7s infinite alternate ;
+}
+
+.row2-producto .col-80 img:hover {
+    filter: brightness(100%);
+}
+
+@keyframes escalar{
+    to {
+        transform: scale(0.9);
+    }
+    from {
+        transform: scale(1);
+    }
+}
+
+
 
 /* Pie de página */
 
