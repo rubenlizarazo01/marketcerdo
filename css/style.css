@@ -362,6 +362,12 @@ header nav ol li a:hover{
     cursor: pointer;
 }
 
+.row2-producto .col-100 h2{
+    color: darkred;
+    font-family:'Baloo Tammudu 2';
+    font-size: 1.8rem;
+    text-align: center; 
+}
 
 
 /* Pie de página */
