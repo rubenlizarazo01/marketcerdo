@@ -15,7 +15,7 @@ header{
 header nav{
     width: 100%;
     height: 14vh;
-    background-color: darkred;
+    background-color: rgb(226, 35, 36);
     display: flex;
     align-items: center;
 }
@@ -27,7 +27,7 @@ header nav ol{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(https://scontent.feoh6-1.fna.fbcdn.net/v/t1.6435-9/91692211_102766798049512_6741853981787553792_n.png?_nc_cat=100&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=Iy_y2aSUCjcAX9VhiBV&_nc_ht=scontent.feoh6-1.fna&oh=cfff6ee176d48c7830845e9ebeb93df4&oe=60C95E93);
+    background-image: url(https://scontent.feoh6-1.fna.fbcdn.net/v/t1.6435-9/91692211_102766798049512_6741853981787553792_n.png?_nc_cat=100&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=4yAVVORGnNgAX_xI4Gh&_nc_ht=scontent.feoh6-1.fna&oh=761fd039e779323f4e55c6b2a9603746&oe=60D341D3);
     background-size: 7%;
     background-position: 47%;
     background-repeat: no-repeat;
@@ -125,13 +125,14 @@ header nav ol li a:hover{
 }
 
 .row-2 h2{
-    font-family:'Baloo Tammudu 2', cursive;
-    font-size: 2em;
+    width: 100%;
+    height: 9vh;
     color: white;
-    display: flex;
-    justify-content: center;
-    margin-top: 8%;
-    margin-block-end: 0%;
+    background: rgb(226, 35, 36);
+    font-family:'Baloo Tammudu 2';
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 5%;
 }
 
 
@@ -215,7 +216,7 @@ header nav ol li a:hover{
 }
 
 .container .row .col-40 h2{
-    color: darkred;
+    color: rgb(226, 35, 36);
     font-family:'Baloo Tammudu 2';
     font-size: 1.8rem;
     text-align: center;
@@ -266,17 +267,29 @@ header nav ol li a:hover{
 }
 
 .container-1 .row-1 .col-40 h2{
-    color: darkred;
+    color: rgb(226, 35, 36);
     font-family:'Baloo Tammudu 2';
     font-size: 1.8rem;
     text-align: center;
+    line-height: 0%;
+    margin-top: 8%;
 }
 
 .container-1 .row-1 .col-40 p{
     color: white;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     display: flex;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
+    text-align: justify;
+    margin-left: 3%;  
+    line-height: 0px;
+}
+
+.container-1 .row-1 .col-40 h1{
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    font-size: 1.1rem;
     text-align: justify;
     margin-left: 3%;  
 }
@@ -354,7 +367,7 @@ header nav ol li a:hover{
     font-family: monospace;
     line-height: 50px;
     text-align: center;
-    background: darkred;
+    background: rgb(226, 35, 36);
     border-radius: 50%;
     position: absolute;
     right: 15px;
@@ -366,7 +379,7 @@ header nav ol li a:hover{
     width: 100%;
     height: 9vh;
     color: white;
-    background: darkred;
+    background: rgb(226, 35, 36);
     font-family:'Baloo Tammudu 2';
     font-size: 2rem;
     text-align: center; 
@@ -427,6 +440,89 @@ header nav ol li a:hover{
     filter: brightness(90%)
 }
 
+/* Contacto*/
+
+.container3-contact{
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.container3-contact .row3-contact{
+    width: 100%;
+}
+
+.container3-contact .row3-contact .col-55{
+    width: 43%;
+    color: white;
+    float: left;
+    text-align: justify;
+    padding-left: 2%;
+}
+
+.container3-contact .row3-contact .col-55 h2{
+    font-size: 2rem;
+    font-family: 'Baloo Tammudu 2', cursive;
+    color: rgb(226, 35, 36);
+}
+
+.container3-contact .row3-contact .col-55 p{
+    font-size: 1rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: justify;
+}
+
+.container3-contact .row3-contact .col-55 h3{
+    font-size: 1.5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container3-contact .row3-contact .col-55 button{
+    border-radius: 15px;
+    background-color: rgb(226, 35, 36);
+    color: white;
+    outline: none;
+    border: none;
+    padding: 5px;
+    width: 100%;
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+.container3-contact .row3-contact .col-55 button:hover{
+    color: white;
+    background-color: rgb(87, 87, 87);
+    border: 1px solid rgb(226, 35, 36);
+    cursor: pointer;
+}
+
+.container3-contact .row3-contact .col-45{
+    width: 48%;
+    color: white;
+    float: left;
+    padding-left: 5%;
+}
+
+.container3-contact .row3-contact .col-45 h2{
+    font-size: 2rem;
+    font-family: 'Baloo Tammudu 2', cursive;
+    color: rgb(226, 35, 36);
+}
+
+.container3-contact .row3-contact .col-45 p{
+    font-size: 1rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: justify;
+}
+
+.container3-contact .row3-contact .col-45 h3{
+    font-size: 1.5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
 /* Pie de página */
 
 footer{
@@ -480,7 +576,7 @@ footer .row .col-25 h3{
     text-align: center;
     padding-top: 2px;
     padding-bottom: 2px;
-    color: darkred;
+    color: rgb(226, 35, 36);
 }
 
 footer .row .col-25 ol{
@@ -504,7 +600,7 @@ footer .row .col-25 ol li a {
 }
 
 footer .row .col-25 ol li:hover{
-    background-color: darkred;
+    background-color: rgb(87, 87, 87);
     cursor: pointer;
 }
 
