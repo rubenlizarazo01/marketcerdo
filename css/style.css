@@ -519,9 +519,20 @@ header nav ol li a:hover{
 .container3-contact .row3-contact .col-45 h3{
     font-size: 1.5rem;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
 }
 
+.redes{
+height: 20px;
+padding: 2px;
+text-align: center;
+}
 
+.redes li{
+    display: inline-block;
+    animation: escalar 1s infinite alternate;
+    
+}
 
 /* Pie de página */
 
