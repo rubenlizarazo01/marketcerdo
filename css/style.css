@@ -4,41 +4,50 @@ body, main{
     padding: 0px;
     margin: 0px;
     background-color: black;
+    box-sizing: border-box;
 }
 
 header{
     width: 100%;
-    height: 14vh;
-    margin-block-end: 20px;
+    height: 50px;
+    display: inline-block;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 100;
 }
 
 header nav{
     width: 100%;
-    height: 14vh;
+    height: 12vh;
     background-color: rgb(226, 35, 36);
     display: flex;
     align-items: center;
+    float: right;
+    text-align: center;
+    padding: 0px;
 }
 
 header nav ol{
     width: 100%;
     height: 13vh;
-    padding-left: 0px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(https://scontent.feoh6-1.fna.fbcdn.net/v/t1.6435-9/91692211_102766798049512_6741853981787553792_n.png?_nc_cat=100&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=4yAVVORGnNgAX_xI4Gh&_nc_ht=scontent.feoh6-1.fna&oh=761fd039e779323f4e55c6b2a9603746&oe=60D341D3);
-    background-size: 7%;
-    background-position: 47%;
-    background-repeat: no-repeat;
+    text-align: justify;
 }
 
 header nav ol li{
     font-family:'Baloo Tammudu 2', cursive;
-    font-size: 2em;
+    font-size: 1.7em;
     list-style: none;
-    padding: 10px 100px;    
+    align-items: center;
+    justify-content: center;
+    padding: 10px 78px; 
+    margin-top: 20px;
+    display: inline-block;
 }
+
 
 header nav ol li a{
     color: white;
@@ -47,22 +56,31 @@ header nav ol li a{
     height: 100vh;
     justify-content: center;
 }
-    
+
 header nav ol li a:hover{
     color: black;
+    cursor: pointer;
+}
+
+header nav ol li img{
+    width: 100px;
+    margin-top: 30px;
+    border-radius: 5px;
 }
 
 /*contenido*/
 
 .container-banner{
     width: 100%;
-    overflow-x: hidden;   
+    overflow-x: hidden;  
+    padding-top: 110px; 
 }
 
 .row-banner {
     width: 400%;
     display: flex;
     flex-direction: row; 
+    margin-top: 20px;
     animation-name: market;
     animation-duration: 60s;
     animation-iteration-count:infinite;
@@ -189,6 +207,7 @@ header nav ol li a:hover{
     width: 100%;
     display: flex;
     flex-direction: row;
+    padding-top: 110px;
 }
 
 .container .row .col-60 img {
@@ -321,13 +340,14 @@ header nav ol li a:hover{
     width: 300px;
     margin-bottom: 30px;
     padding: 3px;
+    justify-content:center;
     border-radius: 2%;
     object-fit: cover;
     filter: brightness(70%);
-    animation: escalar 7s infinite alternate ;
+    animation: escalar 7s infinite alternate;
 }
 
-.row2-producto .col-80 img:hover {
+.row2-producto .col-10 img:hover {
     filter: brightness(100%);
 }
 
@@ -350,6 +370,7 @@ header nav ol li a:hover{
     align-items: center;
     top: 0;
     left: 0;
+    z-index: 100;
 }
 
 .modal--img {
@@ -428,14 +449,13 @@ header nav ol li a:hover{
 }
 
 .row2-producto .col-10 img{
-    width: 300px;
+    width: 25%;
     display: flex;
     justify-content: center;
     margin-left: 37%;
     margin-top: 3%;
     border-radius: 2%;
     margin-bottom: 30px;
-    padding: 3px;
     animation: escalar 4s infinite alternate;
     filter: brightness(90%)
 }
@@ -624,4 +644,3 @@ footer .row .col-25 iframe {
     align-items: center;
     margin-left: 5%;
 }
-
