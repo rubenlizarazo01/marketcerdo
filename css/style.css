@@ -340,6 +340,7 @@ header nav ol li img{
     filter: brightness(70%);
     animation: escalar 7s infinite alternate;
     margin-left: 2%;
+    cursor: pointer;
 }
 
 .row2-producto .col-10 img:hover {
@@ -386,8 +387,8 @@ header nav ol li img{
     background: rgb(226, 35, 36);
     border-radius: 50%;
     position: absolute;
-    right: 40px;
-    top: 40px;
+    right: 180px;
+    top:unset;
     cursor: pointer;
 }
 
@@ -402,7 +403,7 @@ header nav ol li img{
 }
 
 .slider2 {
-    width: 90%;
+    width: 100%;
     margin: auto;
     overflow: hidden;
 }
@@ -423,10 +424,11 @@ header nav ol li img{
 }
 
 .slider2 img {
-    width: 90%;
+    width: 40%;
     display: flex;
     justify-content: center;
     border-radius: 10px;
+    margin-left: 25%;
 }
 
 @keyframes cambio {
@@ -480,6 +482,7 @@ header nav ol li img{
     font-size: 2rem;
     font-family: 'Baloo Tammudu 2', cursive;
     color: rgb(226, 35, 36);
+    margin-top: 10%;
 }
 
 .container3-contact .row3-contact .col-55 p{
