@@ -560,14 +560,14 @@ text-align: center;
 
 footer{
     width: 100%;
-    
 }
 
 footer .row{
     width: 100%;
+    height: 30vh;
     display: flex;
     justify-content: center;
-    padding-top: 10%;
+    padding-top: 7%;
     padding-bottom: 5%;
 }
 
@@ -600,7 +600,7 @@ footer .row .col-25 h2{
     padding-top: 1px;
     padding-bottom: 1px;
     color: white;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     margin-right: 7%;
 }
 
@@ -641,7 +641,7 @@ footer .row .col-25 ol li:hover{
 
 footer .row .col-25 iframe {
     width: 90%;
-    height: 18vh;
+    height: 23vh;
     border-radius: 5px;
     display: flex;
     justify-content: center;
