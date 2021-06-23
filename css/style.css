@@ -479,7 +479,7 @@ header nav ol li img{
 }
 
 .container3-contact .row3-contact .col-55 h2{
-    font-size: 2rem;
+    font-size: 1.6rem;
     font-family: 'Baloo Tammudu 2', cursive;
     color: rgb(226, 35, 36);
     margin-top: 10%;
@@ -527,6 +527,7 @@ header nav ol li img{
     font-family: 'Baloo Tammudu 2', cursive;
     color: rgb(226, 35, 36);
     align-items: center;
+    margin-top: 10%;
 }
 
 .container3-contact .row3-contact .col-45 p{
