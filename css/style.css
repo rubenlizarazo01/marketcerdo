@@ -82,7 +82,7 @@ header nav ol li img{
     flex-direction: row; 
     margin-top: 15px;
     animation-name: market;
-    animation-duration: 80s;
+    animation-duration: 60s;
     animation-iteration-count:infinite;
     animation-timing-function:ease;
     animation-direction: alternate-reverse;
