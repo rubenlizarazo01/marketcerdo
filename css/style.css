@@ -400,6 +400,7 @@ header nav ol li img{
     font-family:'Baloo Tammudu 2';
     font-size: 1.8rem;
     text-align: center; 
+    align-items: center;
 }
 
 .slider2 {
@@ -471,7 +472,7 @@ header nav ol li img{
 }
 
 .container3-contact .row3-contact .col-55{
-    width: 45%;
+    width: 43%;
     color: white;
     float: left;
     text-align: justify;
@@ -516,7 +517,7 @@ header nav ol li img{
 }
 
 .container3-contact .row3-contact .col-45{
-    width: 46%;
+    width: 49%;
     color: white;
     float: left;
     padding-left: 5%;
@@ -547,6 +548,7 @@ header nav ol li img{
 height: 20px;
 padding: 2px;
 text-align: center;
+margin-top: -12PX;
 }
 
 .redes li{
